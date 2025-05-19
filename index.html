@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="SRC/style/style.css">
+    <link rel="icon" href="Assets/favicons/favicon.png" type="image/png" sizes="32x32">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+<!-- Hello -->
+    <header class="header" id="header">
+        <a href="index.html" class="logo"><span class="main-icon"></span><span>Jenshita</span></a>
+
+        <div class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="SRC/pages/skills.html">Skills</a>
+            <a href="SRC/pages/education.html">Education</a>
+            <a href="SRC/pages/gallery.html">Case Studies</a>
+            <a href="SRC/pages/hobbies.html">Hobbies</a>
+        </div>
+
+        <div class="main">
+            <a href="SRC/pages/contact.html" class="user main-items"><i class="fas fa-envelope cm-icon"></i>Contact
+                Me</a>
+            <div class="main-items menu-icon-container" id="menu-icon-js">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <section class="about" id="about">
+            <div class="about-content">
+                <div class="column right">
+                    <img src="Assets/main-image.jpg" alt="">
+                </div>
+                <div class="column left">
+                    <div class="text">I'm Jenshita and I'm a <span id="typed" class="iAm"></span></div>
+                    <p>
+                        A UI/UX enthusiast and creative designer currently studying Information Technology at MIT Bangalore.
+                        I craft intuitive, aesthetic, and user-centered digital experiences. I’m passionate about making interfaces that not only look good but also work beautifully.
+                    </p>
+                    <div class="buttons">
+                        <a href="SRC/pages/contact.html" class="cm-button">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script type="text/javascript" src="SRC/script/script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['UI/UX Designer', 'Web Developer'],
+            typeSpeed: 55,
+        });
+    </script>
+
+</body>
+
+</html>
